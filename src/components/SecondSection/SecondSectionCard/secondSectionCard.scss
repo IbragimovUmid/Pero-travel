@@ -1,0 +1,30 @@
+// . .ssc-card {
+//   display: flex;
+// }
+.tours-card{
+  margin: 20px;
+}
+.ssc-img {
+  width: 75px;
+  padding: 0 10px;
+}
+.ssc-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.ssc-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+@media only screen and (max-width: 768px){
+  .tours-card{
+  margin: 20px;
+}
+.ssc-img {
+  width: 75px;
+  padding: 0 10px;
+}
+}

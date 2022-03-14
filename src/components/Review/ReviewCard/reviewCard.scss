@@ -1,0 +1,36 @@
+.review-card {
+  width: 740px;
+  height: 322px;
+  display: flex;
+  justify-content: space-between;
+  background: #ededed;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 50px;
+}
+.review-card-text {
+  width: 450px;
+  padding-left: 100px;
+    // align-items: center;
+}
+.rc-img {
+  width: 245px;
+  height: 245px;
+}
+.rc-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.rc-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+@media only screen and (max-width: 768px){
+  .review-card {
+    display: none;
+  }
+}

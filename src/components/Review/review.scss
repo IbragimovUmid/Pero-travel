@@ -1,0 +1,44 @@
+.review {
+  margin-top: 100px;
+  width: 100%;
+}
+.review-name {
+  display: flex;
+  justify-content: space-between;
+}
+.review-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0499dd;
+}
+.review-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+@media only screen and (max-width: 768px){
+  .review {
+  margin-top: 100px;
+  width: 70%;
+}
+.review-name {
+  display: flex;
+  justify-content: space-between;
+}
+.review-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0499dd;
+}
+.review-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+}

@@ -1,0 +1,30 @@
+.route {
+  max-width: 1946px;
+  margin: 100px;
+}
+.ellipse {
+  width: 12px;
+  height: 12px;
+  margin-right: 26px;
+}
+.route-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0499dd;
+  margin-bottom: 90px;
+}
+.route-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 40px 60px;
+}
+.route-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}

@@ -1,0 +1,78 @@
+.p-info-sec {
+  max-width: 1120px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+.p-info-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0499dd;
+  margin-bottom: 40px;
+}
+.p-info-subtitle {
+  margin-right: 100px;
+}
+.price-ticket {
+  width: 160px;
+  height: 100px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 25px 17px;
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 15px 3px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 15px 3px rgba(34, 60, 80, 0.2);
+}
+.p-info-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+.p-info-price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0499dd;
+  display: flex;
+  align-items: center;
+}
+.p-info-age {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+.p-info-box {
+  display: flex;
+  justify-content: space-between;
+}
+.p-info-img {
+  width: 18px;
+  height: 18px;
+  margin-right: 7px;
+}
+@media only screen and (max-width: 768px) {
+  .p-info-sec {
+    max-width: 610px;
+    margin-top: 100px;
+    // display: flex;
+    // justify-content: space-between;
+    margin: 100px auto;
+  }
+  .p-info-box {
+    // display: grid;
+    // justify-content: space-between;
+  }
+  .price-ticket {
+    width: 160px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    padding: 25px 17px;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 15px 3px rgba(34, 60, 80, 0.2);
+  }
+}

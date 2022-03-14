@@ -1,0 +1,54 @@
+.first-section {
+  background: url(../../../public/img/fs.png) no-repeat;
+  // background-position: -100px;
+  width: 100%;
+  padding-top: 130px;
+  height: 100vh;
+}
+.first-section-img {
+  width: 70%;
+}
+.first-section-info {
+  max-width: 542px;
+  transform: translate(180%);
+  height: 476px;
+  padding: 60px;
+  background: #ededed;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+.fs-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0px 30px;
+}
+.fs-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .first-section {
+    background: url(../../../public/img/fs.png) no-repeat;
+    background-position: -100px;
+    width: 100%;
+    padding-top: 130px;
+    height: 100vh;
+  }
+  .first-section-img {
+    width: 30%;
+  }
+  .first-section-info {
+    max-width: 542px;
+    // transform: translate(180%);
+    height: 476px;
+    padding: 60px;
+    background: #ededed;
+    border-radius: 10px;
+    margin-bottom: 10%;
+  }
+}

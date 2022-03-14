@@ -1,0 +1,100 @@
+.con-turs {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0499dd;
+  margin: 30px 0px 0px 40px;
+}
+.con-box {
+  max-width: 780px;
+  height: 300px;
+  display: flex;
+  margin: 40px 0px 20px 40px;
+  justify-content: space-between;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 11px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 11px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 11px 2px rgba(34, 60, 80, 0.2);
+}
+.con-card {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+}
+.con-img {
+  width: 240px;
+  height: 300px;
+  border-radius: 10px 0px 0px 10px;
+}
+.con-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffc700;
+}
+.con-category {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.con-price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #0499dd;
+}
+.con-age {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+}
+.con-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+.con-ticket {
+  text-align: center;
+  margin-right: 20px;
+}
+.con-data {
+  margin: 27px;
+}
+.con-btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  display: flex;
+  border-radius: 60px;
+  border: none;
+  color: #fff;
+  align-items: center;
+  height: 40px;
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  padding: 12px 30px 12px 30px;
+  text-decoration: none;
+  list-style: none;
+}
+.con-btns {
+  display: flex;
+  margin-top: 8%;
+}
+.con-btnsave {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px){
+  .con-box {
+  max-width: 610px;
+  height: 300px;
+  display: flex;
+  margin: 40px 0px 20px 40px;
+  justify-content: space-between;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 11px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 11px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 11px 2px rgba(34, 60, 80, 0.2);
+}
+}

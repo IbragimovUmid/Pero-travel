@@ -1,0 +1,137 @@
+.head {
+  background: url("../../../public/img/headernew.png") no-repeat center
+    center/cover;
+  height: 100vh;
+}
+.headers {
+  margin-top: 11%;
+  // width: 200px !important;
+}
+.parent-text {
+  width: 100%;
+}
+.title-header {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  color: #fff;
+}
+.text-header {
+  display: inline-block;
+  position: relative;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 75px;
+}
+.text-header::before {
+  content: "вместе с";
+  position: absolute;
+  right: 0;
+  top: -15px;
+  font-family: "Marck Script", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  text-align: right;
+  color: #ffc700;
+}
+span {
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-fill-color: #00000000;
+  font-family: Arial Black, Gadget, sans-serif;
+}
+.hd-btn {
+  margin-top: 8%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  display: flex;
+  border-radius: 60px;
+  border: none;
+  color: #fff;
+  align-items: center;
+  height: 50px;
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border-radius: 60px;
+  padding: 16px 50px 16px 50px;
+}
+.hd-btnp {
+  text-decoration: none;
+  list-style: none;
+    color: #fff;
+}
+.icon-nets {
+  position: absolute;
+  right: 20%;
+  top: 41%;
+  display: grid;
+}
+.icon-net {
+  padding: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .head {
+    background: url("../../../public/img/bgheader.png") no-repeat center
+      center/cover;
+    height: 100vh;
+  }
+  .header {
+    width: 100%;
+  }
+  .headers {
+    margin-top: 11%;
+  }
+  .parent-text {
+    width: 68%;
+  }
+  .title-header {
+    font-size: 2.8rem;
+  }
+  .subtitle-header {
+    right: 0;
+    font-family: "Marck Script", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #ffc700;
+    top: 15%;
+    margin-left: 70%;
+  }
+  .text-header {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+  }
+  span {
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-fill-color: #00000000;
+    font-family: Arial Black, Gadget, sans-serif;
+  }
+  .hd-btn {
+    margin-top: 8%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    display: flex;
+    border-radius: 60px;
+    border: none;
+    color: #fff;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+    border-radius: 60px;
+    padding-left: 6%;
+  }
+  .icon-nets {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    display: grid;
+  }
+  .icon-net {
+    padding: 4px;
+  }
+}

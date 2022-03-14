@@ -1,0 +1,31 @@
+.cal-parent {
+  max-width: 80%;
+}
+.cal-name {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0499dd;
+  margin-left: 900px;
+}
+.cal-img {
+  background: url(../../../public/img/calendar.png);
+  max-width: 825px;
+  height: 100vh;
+}
+.cal-box {
+  width: 560px;
+  height: 456px;
+  background-color: #ededed;
+  border-radius: 10px;
+  margin-top: 80px;
+  transform: translate(120%);
+}
+.cal-dar {
+  align-items: center;
+  margin-right: 10px;
+  background: #ededed;
+  color: #000;
+  padding: 20px;
+}
